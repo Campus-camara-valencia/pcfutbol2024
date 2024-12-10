@@ -2,7 +2,7 @@ CREATE TABLE players (
     id_player INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
+    pass VARCHAR(255) NOT NULL,
     birth_date DATE NOT NULL
 );
 
@@ -18,7 +18,7 @@ CREATE TABLE teams (
 );
 
 -- Insertar un jugador de prueba
-INSERT INTO players (name, email, password, birth_date) 
+INSERT INTO players (name, email, pass, birth_date) 
 VALUES ('Juan Pérez', 'juan.perez@example.com', 'securepassword123', '1990-05-15');
 
 -- Insertar un equipo de prueba
