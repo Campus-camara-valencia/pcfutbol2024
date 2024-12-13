@@ -1,0 +1,14 @@
+body{
+    background-image: url(../sources/img/red.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(../sources/fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+.title {
+    font-family: Title;
+}

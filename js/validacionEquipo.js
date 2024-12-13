@@ -6,6 +6,7 @@ $(document).ready(function(){
         let stadiumName=$('#stadiumName').val();
         let teamImg=$('#teamImg').val();
         let submitContent=true;
+        
 
         if(typeof teamName!== 'string'||teamName.trim()==''){
             $('#nameMsg').html("Por favor inserte un nombre válido en este campo");
@@ -21,8 +22,6 @@ $(document).ready(function(){
         }
 
         if (submitContent){
-            //AJAX
-
 
             $('#budgetMsg').html("Equipo creado, presupuesto inicial de 100");
         }
