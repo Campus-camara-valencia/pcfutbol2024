@@ -3,8 +3,6 @@
 
 include_once('config.php');
 
-$response = "";
-
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $ImagenSubida = '../data/imgTeams/default.jpg';
@@ -58,6 +56,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $response = array("success" => false, "error" => "Error en la conexion: " .$conn->error);
     }
 
+    if (isset($response)){
+        echo json_encode($response);
+        }
+
 }
 $conn->close();
-echo json_encode($response);
+
