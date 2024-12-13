@@ -1,5 +1,6 @@
 <?php
 // Código por Marcos Allet
+// Archivo para guardar la información de registro de equipo en la BD
 
 include_once('config.php');
 

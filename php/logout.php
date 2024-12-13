@@ -1,4 +1,6 @@
 <?php
+// Archivo para cerrar sesión 
+
 session_start(); // Iniciar
 session_unset(); // Borrar datos de la sesión
 session_destroy();// Destruyes la sesion

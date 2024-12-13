@@ -1,5 +1,6 @@
 <?php
 //Archivo para modificar la información del usuario
+
 session_start();
 include_once "config.php";
 

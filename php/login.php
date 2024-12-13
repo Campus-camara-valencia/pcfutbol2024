@@ -1,5 +1,6 @@
 <?php
 // Código por Enol
+// Archivo para comprobar los datos de inicio de sesión con los de la BD. Si existen te redirigira al home. 
 
 header("Content-Type: application/json");
 include_once "config.php";

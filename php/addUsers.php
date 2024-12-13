@@ -1,5 +1,6 @@
 <?php
 // Código por Carla Hurtado
+// Archivo para almacenanar los datos de los nuevos usuarios en la BD
 
 header("Content-Type: application/json");
 include_once "config.php";
