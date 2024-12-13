@@ -5,8 +5,6 @@ header("Content-Type: application/json");
 include_once "config.php";
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-
-
     $name = $_POST["name"];
     $email = $_POST["email"];
     $pass = $_POST["pass"];
