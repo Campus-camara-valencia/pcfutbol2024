@@ -1,7 +1,8 @@
 body{
-    background-image: url(../sources/img/red.jpg);
+    background-image: url(../sources/img/background_red.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 @font-face {
