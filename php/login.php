@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validar entrada
     $email = $_POST["email"];
     $password = $_POST["pass"];
-    $hash = password_hash($password, PASSWORD_DEFAULT); 
+    $hash = md5($password); 
 
     // Consulta segura con sentencias preparadas
     $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = ? AND pass = ? LIMIT 1");

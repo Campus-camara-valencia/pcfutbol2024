@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $email = $_POST["email"];
     $pass = $_POST["pass"];
     $birthDate = $_POST["birthDate"];
-    $hash = password_hash($pass, PASSWORD_DEFAULT);
+    $hash = md5($pass);
 
     $sql = "INSERT INTO players (name, email, pass, birth_date) VALUES (?,?,?,?)";
     $stmt = $conn->prepare($sql);
