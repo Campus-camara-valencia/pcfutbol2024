@@ -15,7 +15,8 @@ include_once "./php/sessionlogin.php";
 
 <body class="flex flex-col items-center justify-center min-h-screen p-4">
     <h2 class="text-white font-bold text-6xl mb-8 title">Iniciar sesión</h2>
-    <form id="loginForm" action="loginInsert.php" method="POST" class="w-full max-w-3xl">
+
+    <form id="loginForm" action="./php/checklogin.php" method="POST" class="w-full max-w-3xl">
         <div class="mb-6">
             <label class="block text-white text-lg font-bold mb-2" for="email">Email:</label>
             <input type="email" name="email" id="email"
