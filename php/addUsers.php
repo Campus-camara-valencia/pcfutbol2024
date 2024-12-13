@@ -19,9 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $stmt->bind_param("sssd", $name, $email, $hash, $birthDate);
 
     if ($stmt->execute()) {
-        echo json_encode(["success" => "True"]);
+        echo json_encode(["success" => true]);
     } else {
-        echo json_encode(["success" => "False"]);
+        echo json_encode(["success" => false]);
     }
 
     $stmt->close();

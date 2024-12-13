@@ -11,7 +11,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $imagen = $_FILES['teamImg']['name'];
 
     if (isset($imagen) && $imagen != "") {
-        $tipo = $_FILES['teamImg']['type'];
+        $tipo = $_FILE5S['teamImg']['type'];
         $tamano = $_FILES['teamImg']['size'];
         $temp = $_FILES['teamImg']['tmp_name'];
 
