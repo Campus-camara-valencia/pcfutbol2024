@@ -1,4 +1,6 @@
 <?php
+// Código por Enol
+
 header("Content-Type: application/json");
 include_once "config.php";
 

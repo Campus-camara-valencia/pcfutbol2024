@@ -1,4 +1,6 @@
 <?php
+// Código por Marcos Allet
+
 include_once('config.php');
 
 $response = "";
