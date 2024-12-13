@@ -19,8 +19,8 @@ CREATE TABLE teams (
 
 -- Insertar un jugador de prueba
 INSERT INTO players (name, email, pass, birth_date) 
-VALUES ('Juan Pérez', 'juan.perez@example.com', 'securepassword123', '1990-05-15');
-
+VALUES ('Juan Pérez', 'juan.perez@example.com', '$2y$10$URSFl5af11DJp4cEoCHfceXpa7dVJZxYNCm8vSe4/gTL.6uYxHHAK', '1990-05-15');
+-- La contraseña es securepassword123
 -- Insertar un equipo de prueba
 INSERT INTO teams (team_name, foundation_year, img_team, stadium_name, budget, id_player) 
 VALUES ('Tigres del Norte', 1968, 'https://example.com/images/tigres.png', 'Estadio Aurora', 1200000.00, 1);
