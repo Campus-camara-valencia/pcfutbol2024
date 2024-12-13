@@ -1,11 +1,13 @@
 <?php
-
+//Archivo para modificar la información del usuario
 session_start();
 include_once "config.php";
 
+//array donde se guardan las variables a cambiar
 $set = [];
 
 if(isset($_SESSION["id"])){
+    //Se comprueba cuales son los campos a modificar
     if(isset($_POST['name'])){
         $set[] = "name = '" . $conn->real_escape_string($_POST['name']) . "'";
     }
@@ -23,6 +25,7 @@ if(isset($_SESSION["id"])){
         $set[] = "pass = '". $passwordNuevo  . "'";
     }
 
+    //Modificación de la query
     if(!empty($set)){
         $sql = "UPDATE players SET " . implode(",", $set) . " WHERE id_player=" . $_SESSION["id"];
 
