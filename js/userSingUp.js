@@ -47,17 +47,17 @@ $(document).ready(function () {
         let name = $("#name").val();
         let email = $("#email").val();
         let birthDate = $("#birthDate").val();
-        let password = $("#password").val();
+        let password = $("#pass").val();
 
         // Enviar datos con AJAX
         $.ajax({
             type: "POST",
-            url: "nombrepagina", // Reemplaza con tu URL de destino
+            url: "./php/addUsers.php", // Reemplaza con tu URL de destino
             data: {
                 name: name,
                 email: email,
                 birthDate: birthDate,
-                password: password
+                pass: password
             },
             dataType: "json",
             success: function (response) {

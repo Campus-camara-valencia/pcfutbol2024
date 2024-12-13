@@ -36,15 +36,15 @@ $(document).ready(function () {
 
         // Si pasa la validación, recoger los valores
         let email = $("#email").val().trim();
-        let password = $("#password").val().trim();
+        let password = $("#pass").val().trim();
 
         // Enviar datos con AJAX
         $.ajax({
             type: "GET",
-            url: "nombrepagina", // Reemplaza con tu URL
+            url: "./php/login.php", // Reemplaza con tu URL
             data: {
                 email: email,
-                password: password,
+                pass: password,
             },
             dataType: "json",
             success: function (response) {

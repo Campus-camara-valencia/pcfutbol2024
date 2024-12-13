@@ -1,5 +1,5 @@
 
-class team {
+export class team {
 
     constructor (name,presidentName,fundationYear,stadiumName,budget,urlImage){
 
