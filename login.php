@@ -28,7 +28,7 @@ include_once "./php/sessionlogin.php";
                 class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 required placeholder="Introduce tu contraseña">
         </div>
-        <button id="inicio" type="button"
+        <button id="inicio" type="submit"
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full text-xl">Login</button>
         <div class="flex flex-col items-center my-8">
             <hr class="w-96 border-t border-white mb-8">
