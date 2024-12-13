@@ -13,7 +13,7 @@ include_once "Location: ./php/sessionlogin.php";
     <!-- Enlaces a Bootstrap y jQuery -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/styles_register.css">
+    <link rel="stylesheet" href="./css/styles_register.css">
 </head>
 
 <body class="flex flex-col items-center justify-center min-h-screen bg-gray-800 p-4">
@@ -41,7 +41,7 @@ include_once "Location: ./php/sessionlogin.php";
                 <input type="date" name="birthDate" id="birthDate" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Introduce la fecha" required/>
             </div>
 
-            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full">Registrarme</button>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full text-xl">Registrarme</button>
         </form>
 
         <div class="flex flex-col items-center my-8">
