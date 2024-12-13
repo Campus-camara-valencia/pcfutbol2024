@@ -1,0 +1,14 @@
+body {
+    background-image: url(../sources/img/pel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(../sources/fonts/lemon_milk/LEMONMILK-Bold.otf);
+}
+
+.title {
+    font-family: Title;
+}
