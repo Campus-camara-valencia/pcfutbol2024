@@ -48,7 +48,7 @@ include_once "Location: ./php/sessionlogin.php";
             <hr class="w-96 border-t border-white mb-8">
             <h3 class="text-white mb-2 text-lg">¿Ya tienes cuenta?</h3>
             <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                <a href="login.html" class="block">Inicia Sesión</a>
+                <a href="login.php" class="block">Inicia Sesión</a>
             </button>
         </div>
 </body>
