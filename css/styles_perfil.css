@@ -1,0 +1,21 @@
+/* CSS General */
+body {
+    background-image: url(../img/background_image_02.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Title;
+    src: url(../sources/fonts/LEMONMILK-Bold\ 1.otf);
+}
+ 
+.title {
+    font-family: 'Title';
+}
+
+.icon-home {
+    src:url(../img/icons/home_40dp_E8EAED_FILL1_wght400_GRAD0_opsz40.svg);  
+}
